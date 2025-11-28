@@ -7,3 +7,8 @@
             (iter (* b a) b (- n 1)))))
   (iter 1 b n))
 
+;; how this works??
+;; (fast-expt 2 4)
+; (iter 1 2 4)
+; (iter 1 (square 2) (/ 4 2)) => (iter 1 4 2)
+; (iter 1 4 2) =>
